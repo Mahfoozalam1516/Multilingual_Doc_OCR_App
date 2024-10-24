@@ -5,11 +5,11 @@ pytesseract
 
 # Scientific and Image Processing
 numpy
-opencv-python-headless
+opencv-python-headless==4.10.0.84
 
 # Additional requirements for Python 3.12 compatibility
-typing-extensions
-python-opencv
+typing-extensions>=4.12.2
+
 
 # Ensure all packages are Python 3.12 compatible
 packaging
