@@ -1,11 +1,15 @@
 # Core dependencies
-streamlit
-Pillow
-pytesseract
+streamlit>=1.31.0,<2.0.0
+Pillow>=10.2.0,<11.0.0
+pytesseract>=0.3.10,<0.4.0
 
 # Scientific and Image Processing
-numpy
-opencv-python-headless
+numpy>=1.26.4,<2.0.0
+opencv-python-headless>=4.9.0.80,<5.0.0
 
 # Additional requirements for Python 3.12 compatibility
-opencv-python
+typing-extensions>=4.9.0,<5.0.0
+python-opencv>=1.0.0,<2.0.0
+
+# Ensure all packages are Python 3.12 compatible
+packaging>=23.2,<24.0
