@@ -10,3 +10,6 @@ maxUploadSize = 200
 
 [browser]
 gatherUsageStats = false
+
+[dependencies]
+python = "^3.12.4"

@@ -1,5 +1,4 @@
 # Core dependencies
-python==3.12.4
 streamlit
 Pillow
 pytesseract
@@ -9,8 +8,4 @@ numpy
 opencv-python-headless
 
 # Additional requirements for Python 3.12 compatibility
-typing-extensions
 opencv-python
-
-# Ensure all packages are Python 3.12 compatible
-packaging
