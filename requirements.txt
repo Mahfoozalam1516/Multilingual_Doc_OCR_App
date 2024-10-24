@@ -3,4 +3,4 @@ Pillow==10.0.0
 pytesseract==0.3.10
 numpy
 opencv-python-headless==4.8.0.74
-python-opencv==1.0.0
+python-opencv
